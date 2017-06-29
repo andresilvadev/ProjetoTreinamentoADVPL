@@ -23,7 +23,7 @@ User function zLacos()
 	*/    
     For nValor := 1 To 10
     Next
-    Alert("For (++): "+cValToChar(nValor))   
+    Alert("Mostrando laço de um até 11 com For (++): "+cValToChar(nValor))   
     
     
     /*
@@ -33,7 +33,7 @@ User function zLacos()
 	*/    
     For nValor := 10 To 1 Step -1
     Next
-    Alert("For (--): "+cValToChar(nValor))
+    Alert("Mostrando laço decrescente de 10 a 1 contando -1 usando For (--): "+cValToChar(nValor))
     
     
     /*
@@ -45,7 +45,7 @@ User function zLacos()
     While nValor != 10
         nValor++
     EndDo
-    Alert("While: "+cValToChar(nValor))
+    Alert("Mostrando laço incrementando de 1 em 1 com While: "+cValToChar(nValor))
     
     
      /*
@@ -54,15 +54,15 @@ User function zLacos()
 	===============================================================
 	*/   
     nValor := 1
-    While nValor != 10 .And. cNome != "Daniel"
+    While nValor != 10 .And. cNome != "Andre Silva"
         //Se chegar no meio do laço
         If nValor == 5
-            cNome := "Daniel"
+            cNome := "Andre Silva"
         EndIf
          
         nValor++
     EndDo
-    Alert("While Composto: "+cValToChar(nValor))
+    Alert("Mostrando o laço While Composto: "+cValToChar(nValor))
     
     
      /*
@@ -82,7 +82,7 @@ User function zLacos()
             Exit
         EndIf
     Next
-    Alert("For (Quebra): "+cValToChar(nValor))
+    Alert("Mostrando o laço com saída do loop usando For (Quebra): "+cValToChar(nValor))
      
     RestArea(aArea)
 return
